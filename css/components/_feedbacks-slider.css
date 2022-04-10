@@ -1,0 +1,84 @@
+.feedbacks__title {
+    
+}
+
+.feedbacks__cards-item {
+    position: relative;
+    z-index: 99;
+    max-width: 536px;
+    height: 612px;
+    background: transparent linear-gradient(320deg, #CE6666 0%, #FFF500 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #CE6666;
+    border-radius: 50px 0px;
+    color: #fff;
+    transition: all 0.15s ease;
+}
+
+.feedbacks__cards--brackets {
+    position: absolute;
+    z-index: 100;
+    height: 211px;
+    opacity: 0.1;
+    font: normal normal normal 164px/1px Gill-Sans-Nova-Deco;
+    letter-spacing: 0px;
+    color: #5F0E0B;
+    opacity: 0.1;
+}
+.feedbacks__cards-item-content {
+    margin-top: 50px;
+    z-index: 100;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedbacks__cards-avatar {
+    text-align: center;
+}
+.feedbacks__cards-avatar-img {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 5px solid #fff;
+    outline: 2px solid #CE6666;;
+    border-radius: 100%;
+}
+
+.feedbacks__cards-avatar-name {
+    margin: 10px 0 0;
+    font-family: gill-sans-nova-condensed, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 2.063rem;
+
+}
+.feedbacks__cards-date {
+    margin-top: 0;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.063rem;
+    opacity: 0.7;
+}
+
+.feedbacks__cards-testimonial {
+    max-width: 70%;
+    font: normal normal 300 1.25rem/2.063rem gill-sans-nova, sans-serif;
+    text-align: justify;
+}
+
+.feedbacks__cards-facebook {
+    margin-bottom: 69px;
+    flex-direction: row;
+    max-width: 70%;
+    
+}
+
+.feedbacks__cards-facebook-link {
+    text-decoration: none;
+    color: #fff;
+    font: normal normal 300 0.938rem/1.5rem gill-sans-nova, sans-serif;
+    opacity: 0.7;
+}
+
+.feedbacks__cards-facebook-icon {
+    margin-right: 16px;
+}

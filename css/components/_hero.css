@@ -1,0 +1,138 @@
+.hero__container {
+    width: 68%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.hero {
+    background-image: url(../../img/hero_home_opacity30.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.hero__title {
+    margin: 0;
+    padding-top: 16.5%;
+    font-size: 6rem;
+    line-height: 7rem;
+    font-family: gill-sans-nova-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #CE6666;
+}
+
+.hero__title--perfect {
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#hero__title--venue {
+    font-family: gill-sans-nova-inline, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.hero__mouse-effect {
+    position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translateY(-50%);
+}
+
+.hero__mouse-effect-mouse {
+	animation: downUp 0.6s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both; 
+}
+
+.hr-line {
+    border: 1px solid #CE6666;
+    width: 100%;
+}
+@keyframes downUp {
+	from {
+		transform: translateY(-10px);
+	}
+
+	to {
+		transform: translateY(5px);
+	}
+}
+
+@media (max-width:1218px) {
+    .hero__title {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+}
+
+
+
+@media (max-width:1023px) {
+    .hero__title {
+        padding-top: 25%;
+        font-size: 4rem;
+    }
+    .hero__mouse-effect{
+        display: none;
+    }
+    .hero {
+        height: 65vh;
+    }
+
+}
+
+
+@media (max-width:813px) {
+    .hero__container {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 690px){
+    .hero__title {
+        font-size: 3rem;
+        line-height: 4.5rem;
+    }
+}
+@media (max-width: 550px) {
+    .hero {
+        height: 50vh;
+    }
+    .hero__title {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+}
+
+@media (max-width: 502px) {
+    .hero {
+        height: 45vh;
+    }
+    
+    /* .hero__container {
+        width: 70%;
+    } */
+
+    .hero__title {
+        font-size: 2.063rem;
+        line-height: 3rem;
+    }
+}
+
+@media (max-width: 280px) {
+    .address {
+        display: none;
+    }
+
+    .hero__title {
+        padding-top: 5%;
+        font-size: 2rem;
+    }
+}
