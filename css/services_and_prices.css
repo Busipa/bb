@@ -1,0 +1,733 @@
+.service-page__container {
+    margin: 0 auto;
+    max-width: 1088px;
+    width: 100%;
+}
+.first_img {
+    background-position:5% 10%;
+}
+/* TITLES */
+
+.bday__title, .programm__title, .animators__title, .menu__title, .service-packs__title, .extra-service__title {
+    font-size: 5rem;
+    margin: 0 auto;
+    padding-top: 80px;
+    font-weight: 100;
+    letter-spacing: 0.5rem;
+}
+
+.bday__descr, .programm__descr {
+    font-family: gill-sans-nova-condensed, sans-serif;
+    font-size: 1.6em;
+    line-height: 2rem;
+    font-weight: 400;
+    color: #CE6666;
+    text-align: justify;
+}
+
+/* SERVICE CARDS */
+
+.service-cards {
+    justify-content: center;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.service-cards__item {
+    color: #fff;
+    width: 80%;
+    margin-right: -15%;
+    border: 3px solid #FFFFFF;
+    align-items: center;
+    min-height: 477px;
+}
+
+#neon-party{
+    background: transparent  linear-gradient(115deg, #F417DE 0%, #3E287E 100%) 0% 0% no-repeat padding-box; 
+}
+
+#lent-show{
+    background: transparent  linear-gradient(115deg, #A0C40B 0%, #3FB3E5 100%) 0% 0% no-repeat padding-box;  
+}
+
+#chemical-show{
+    background: transparent  linear-gradient(115deg, #81EAEF 0%, #2F61BC 100%) 0% 0% no-repeat padding-box; 
+}
+
+#FACEPAINTING {
+    background: transparent  linear-gradient(115deg, #81EAEF 0%, #FF0464 100%) 0% 0% no-repeat padding-box; 
+}
+
+#Balloon-deco {
+    background: transparent  linear-gradient(115deg, #3FB3E5 0%, #F417DE 100%) 0% 0% no-repeat padding-box;
+}
+#photographer{
+    background: transparent  linear-gradient(115deg, #FFF500 0%, #DD301A 100%) 0% 0% no-repeat padding-box;
+}
+.service-cards__img{
+    margin-left: -20%;
+    flex: 0 0 260px;
+    height: 277px;
+    border-radius: 50px 0px;
+    border: 5px solid #FFFFFF;
+    box-shadow: 5px 10px 10px #00000029;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.service-cards__img--double {
+    display: inline-flex;
+    flex: 0 0 260px;
+    height: 277px;
+    border: 5px solid #FFFFFF;
+    box-shadow: 5px 10px 10px #00000029;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 25%;
+}
+
+.service-cards__img--double-left {
+    border-radius: 50px 0px 0px 0px;
+    margin-left: -20%;
+}
+.service-cards__img--double-right {
+    border-radius: 0px 0px 50px 0px;
+    margin-left: 15px;
+}
+
+.service-cards__text{
+    flex: 1 1 auto;
+    margin: 5%;
+    text-align: justify;
+}
+
+.service-cards__title, .animators-cards__title, .price-cards__subtitle, .price-cards__price-tag {
+    font: normal normal 900 2.188rem/3.125rem  gill-sans-nova-condensed, sans-serif;
+    
+}
+.service-cards__descr, .price-cards__descr {
+    font: normal normal 300 1.25rem/1.813rem Gill-Sans-Nova, sans-serif;
+}
+/* PROGRAMM */
+
+.programm__body {
+    margin-top: 50px;
+    gap: 50px;
+    align-items: center;
+}
+
+.programm__image {
+    flex: 1 1 50%;
+}
+
+.programm__img-web {
+    width: 100%;
+    max-width: 536px;
+    height: auto;
+}
+.programm__text {
+    flex: 1 1 50%;
+}
+
+.programm__descr {
+    margin-bottom: 50px;
+}
+
+.programm__img-mob {
+    display: none;
+}
+/* Animators cards */
+
+.animators-cards {
+    margin-top: 220px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.animators-cards__row{
+    gap: 15px;
+}
+.animators-cards__break {
+    flex-basis: 100%;
+    height: 250px;
+}
+.animators-cards__item {
+    position: relative;
+    width: 536px;
+    min-height: 644px;
+    border: 5px solid #FFFFFF;
+    flex-direction: column;
+}
+
+.animators-cards__img--big{
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 347px;
+    border: 4px solid #FFFFFF;
+    border-radius: 50px 0px;
+}
+
+.animators-cards__text {
+    color: #fff;
+    margin: 180px 50px 0px;
+    flex: 1 1 auto;
+}
+
+.animators-cards__title {
+    text-align: center;
+    margin: 30px 0;
+}
+.animators-cards__descr {
+    font: normal normal normal 1.563rem/2.188rem gill-sans-nova-condensed, sans-serif;
+    text-align: justify;
+    margin-top: 10px 0;
+}
+
+.animators-cards__btn {
+    margin-bottom: 40px;
+}
+
+.animators-cards__btn {
+    margin: 0 auto 50px;
+    padding: 6px 75.79px;
+    letter-spacing: 0.056rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.875rem;
+    font-family: gill-sans-nova-condensed, sans-serif;
+    background: transparent linear-gradient(90deg, #FDA203 0%, #DD301A 100%) 0% 0% no-repeat padding-box;
+    color: #ffff;
+    border: none;
+    box-shadow: 0px 10px 10px #00000029;
+}
+
+.animators-cards__btn:hover {
+    background: #DD301A;
+    font-weight: 500;
+}
+
+#doll-lol {
+    background: transparent  linear-gradient(140deg, #F4D0F3 0%, #D856CD 100%) 0% 0% no-repeat padding-box;
+}
+#doll-lol img {
+    position: absolute;
+    height: 200px;
+    width: auto;
+    left: 57%;
+    top: -1%;
+}
+
+#poppy {
+    background: transparent linear-gradient(140deg, #1CC3BD 0%, #FF0066 100%) 0% 0% no-repeat padding-box;
+}
+
+#poppy .animators-cards__img--big {
+    background-position: 50% 25%;
+}
+
+#poppy img {
+    position: absolute;
+    height: 200px;
+    width: auto;
+    left: 59%;
+    top: -1%;
+}
+
+#paw-patrol {
+    background: transparent linear-gradient(140deg, #C825B0 0%, #4273CD 100%) 0% 0% no-repeat padding-box;
+}
+
+#paw-patrol img {
+    position: absolute;
+    height: 120px;
+    width: auto;
+    left: 56%;
+    top: 12%;
+}
+
+#minions {
+    background: transparent linear-gradient(140deg, #FFF90A 0%, #1B6B7F 100%) 0% 0% no-repeat padding-box;
+}
+
+#minions img {
+    position: absolute;
+    height: 200px;
+    width: auto;
+    left: 57%;
+    top: 0;
+}
+
+
+/* MENU */
+
+.menu {
+    width: 100%;
+    color: #fff;
+    background: transparent linear-gradient(140deg, #A0C40B 0%, #178851 100%) 0% 0% no-repeat padding-box;
+    text-align: center;
+    z-index: 0;
+    outline: 5px dotted #ffff;
+    outline-offset: -4px;
+}
+.menu__pattern {
+    background-image: url(../img/menu_pattern.png); 
+    background-repeat: repeat;
+    opacity: 1;
+    z-index: 5;
+}
+
+.menu__text-wrapper {
+    z-index: 100;
+    opacity: 1;
+}
+
+.menu__title {
+    margin: 180px auto 80px;
+    padding: 150px 0 0 0;
+}
+
+.menu__subtitle {
+    margin: 70px auto 35px;
+    font: normal normal 900 2.188rem/3.125rem  gill-sans-nova-condensed, sans-serif;
+}
+.menu__item {
+    margin: 10px auto;
+    font: normal normal 500 1.563rem/2.188rem  gill-sans-nova-condensed, sans-serif;
+}
+
+.menu__item:last-child {
+    padding-bottom: 150px;
+}
+
+/* PRICES.HTML */
+
+/* SERVICE PACKS */
+.price-cards {
+    margin-top: 220px;
+    gap: 3%;
+    align-items: flex-end;
+    justify-content: center;
+}
+.price-cards__item {
+    position: relative;
+    width: 400px;
+    border: 5px solid #FFFFFF;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.price-cards_img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -17%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 4px solid #FFFFFF;
+    border-radius: 50px 0px;
+}
+.price-cards_img--light {
+    width: 193px;
+    height: 257px;
+    background-position: 50% 90%
+}
+
+.price-cards_img--super {
+    width: 235px;
+    height: 314px;
+    background-position: 17% 25%;
+}
+
+.price-cards_img--mega {
+    width: 261px;
+    height: 348px;
+    background-position: 17% 25%;
+
+}
+
+.price-cards__text{
+    text-align: center;
+    margin: 7%;
+}
+
+
+.price-cards__subtitle{
+    margin: 120px auto 50px;
+}
+.price-cards__descr{
+    text-align: justify; 
+}
+
+.price-cards__rules {
+    margin-top: 40px;
+    font: normal normal 300 1.125rem/1.563rem gill-sans-nova-condensed, sans-serif;
+    letter-spacing: 0px;
+    text-align: justify; 
+}
+
+#light-party{
+    background: transparent  linear-gradient(162deg, #A0C40B 0%,#3FB3E5 100%) 0% 0% no-repeat padding-box;
+}
+
+
+#super-party{
+    background: transparent  linear-gradient(162deg, #FFF500 0%,#FF0464 100%) 0% 0% no-repeat padding-box;
+}
+
+#mega-party{
+    background: transparent  linear-gradient(162deg, #3FB3E5 0%,#F417DE 100%) 0% 0% no-repeat padding-box;
+}
+
+#super-party .price-cards__text {
+    margin: 0 10% 7%;
+}
+
+#super-party .price-cards__subtitle {
+    margin-top: 155px;
+}
+
+#mega-party .price-cards__text {
+    margin: 0 12% 7%;
+}
+
+#mega-party .price-cards__subtitle {
+    margin-top: 160px;
+}
+
+#light-party .bold {
+    text-shadow: 2px 2px 10px #6EBB79;
+}
+
+
+#super-party .yellow {
+    text-shadow: 2px 2px 10px #FF7834;
+}
+#mega-party .yellow{
+    text-shadow: 2px 2px 10px #9A65E1;
+}
+
+.extra-service__title {
+   padding-bottom: 50px;  
+}
+
+.prices__service-cards {
+    gap: 50px;
+}
+@media (max-width:1329px){
+    .service-packs{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:1232px) {
+    .bday {
+        width: 95%;
+        margin: 30px auto;
+    }
+}
+
+
+@media (max-width:1172px) {
+    .service-page__container {
+        width: 85%;
+    }
+    .animators-cards__item {
+        width: 50%;
+    }
+
+    .bday__title, .programm__title, .animators__title, .menu__title, .service-packs__title, .extra-service__title {
+        font-size: 3.75rem;
+    }
+
+    .animators-cards__item {
+        min-height: 600px
+    }
+
+    .animators-cards__descr {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+
+    .menu__subtitle {
+        font-size: 1.875rem;
+        font-weight: 800;
+    }
+
+    .menu__item {
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 1.875rem;
+    }
+    .programm__body {
+        gap: 30px;
+    }
+
+    .programm__descr {
+        font-size: 1.438rem;
+        line-height: 1.8rem;
+        margin-bottom: 30px;
+    }
+
+    .service-packs{
+        width: 97%;
+    }
+    .price-cards__descr {
+        font-size: 1.438rem;
+        line-height: 1.8rem;
+    }
+    .price-cards{
+        margin-top: 250px;
+        gap: 2%
+    }
+}
+
+@media (max-width:1073px) {
+    .price-cards {
+        align-items: flex-start;
+    }
+}
+@media (max-width:1064px) {
+
+    .service-cards__img--double-left {
+        border-radius: 50px 0px;
+    }
+    .service-cards__img--double-right{
+        display: none;
+    }
+
+    .service-cards__title {
+        margin: 25px 0;
+    }
+  
+     .programm__image {
+        width: 450px;
+        height: auto;
+    }
+    .price-cards{
+        gap: 1%
+    }
+    .first_img {
+        background-position:50% 10%;
+    }
+}
+
+@media (max-width: 838px) {
+    .bday__title, .programm__title, .animators__title, .menu__title, .service-packs__title, .extra-service__title {
+        font-size: 3.125rem;
+    }
+}
+
+@media (max-width: 876px) {
+    .price-cards {
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+
+    #mega-party {
+        margin-top: 220px;
+        flex: 2;
+        margin: 120px 10% 0;
+    }
+
+    #mega-party .price-cards_img {
+        top: -11%;
+    }
+    
+    #mega-party .price-cards__text {
+        margin: 0 6% 7%;
+    }
+    .price-cards_img--mega{
+        width: 350px;
+        height: 250px;
+    }
+
+    #megaparty .price-cards__subtitle {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 853px) {
+    .price-cards {
+        flex-direction: column;
+        gap: 200px ;   
+    }
+    .price-cards__item {
+        width: 70%;
+        margin: 0 auto;
+    }
+    #mega-party {
+        margin: 0 auto;
+        flex: 1;
+    }
+
+    #light-party .price-cards__subtitle {
+        margin-top: 140px;
+    }
+
+    #super-party .price-cards__subtitle {
+        margin-top: 170px;
+    }
+}
+@media (max-width: 780px) {
+    .animators-cards__text {
+        color: #fff;
+        margin: 180px 35px 10px;
+    }
+    .animators-cards__title {
+        margin: 20px 0;
+        font-size: 1.875rem;
+    }
+    .menu__title {
+        margin: 150px auto 50px;
+        padding: 110px 0 0 0;
+    }
+    .menu__subtitle {
+        margin: 60px auto 25px;
+    }
+    .price-cards {
+        margin-top: 180px;
+    }
+}
+
+@media (max-width: 726px) {
+    .bday__title {
+        padding-top: 50px;
+    }
+
+    .bday__descr, .service-cards__descr, .programm__descr, .price-cards__descr {
+        font-size: 1.125rem;
+        line-height: 1.8rem;
+    }
+    .service-cards__title, .price-cards__subtitle, .price-cards__price-tag {
+        font-size: 1.875rem;
+    }
+
+    .bday__title, .programm__title, .animators__title, .menu__title, .service-packs__title, .extra-service__title{
+        font-size: 2.188rem;
+    }
+    .programm__body {
+        flex-direction: column-reverse;
+        max-width: 500px;
+        width: 85%;
+        margin: 50px auto 0;
+        justify-content: center;
+    }
+    .programm__img-web {
+        display: none;
+    }
+    .programm__img-mob {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 676px) {
+    .service-cards__item {
+        flex-direction: column;
+        width: 385px;
+        min-width: 300px;
+    }
+
+    .service-cards__text {
+        margin: 15px 10% 10% 10%;
+    }
+
+    .service-cards__title {
+        margin: 0 0 25px;
+        text-align: center;
+    }
+    .service-cards__img, .service-cards__img--double {
+        width: 260px;
+        margin-left: -65%;
+        margin-top: -10%;
+    }
+
+    .animators-cards {
+        justify-content: center;
+    }
+
+    .animators-cards__row {
+        flex-direction: column;
+        gap: 180px;
+    }
+
+    .animators-cards__item {
+        width: 400px;
+    }
+
+    .menu__text-wrapper {
+        margin: 0 auto;
+    }
+    .menu__item, .menu__subtitle {
+        width: 70%;
+    }
+    .programm__title, .animators__title, .service-packs__title, .extra-service__title {
+    font-size: 1.875rem;
+    }
+
+    .price-cards__item {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .price-cards_img--mega {
+    width: 261px;
+    height: 348px;
+    }
+    #mega-party .price-cards__subtitle {
+        margin-top: 245px;
+    }
+    .price-cards__item {
+        width: 85%;
+    }
+
+    .first_img {
+        background-position: 60% 10%;
+    }
+
+   
+}
+
+@media (max-width: 469px) {
+    .service-cards__img, .service-cards__img--double {
+        margin-left: -50%;
+    } 
+    .programm__image, .animators-cards__item {
+        width: 100%;
+    }
+
+    .price-cards__item {
+        width: 95%;
+    }
+}
+
+@media (max-width: 445px){
+    .bday{
+        margin-bottom: 80px;
+    }
+    .service-page__container {
+        width: 100%;
+        overflow: hidden;
+    }
+    .service-cards__img, .service-cards__img--double {
+        margin-left: -35%;
+    }
+    .service-cards__item {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .bday__title, .programm__title, .animators__title, .menu__title, .service-packs__title, .extra-service__title {
+        letter-spacing: 0.1rem;
+    }
+    .animators-cards__item {
+        width: 97%;
+    }
+}
+
