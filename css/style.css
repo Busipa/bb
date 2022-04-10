@@ -1,1 +1,196 @@
+@import url(normalize.css);
+
+/* Components */
+@import url(components/_header.css);
+@import url(components/_hero.css);
+@import url(components/_sections.css);
+@import url(components/_contact-form.css);
+@import url(components/_footer.css);
+@import url(services_and_prices.css);
+@import url(components/_gallery-animators__owl-carousel.css);
+
+
+
+body {
+    background-color: #F4F3DE;
+    margin: 0 auto;
+    width: 100%;
+}
+.flex {
+    display: flex;
+}
+
+.break{
+    flex-basis: 100%;
+    height: 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+.yellow {
+    color: #FFF500;
+}
+.blue {
+    color: #81EAEF;
+}
+
+.address { 
+    font-family: gill-sans-nova-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title {
+    font-family: "Gill-Sans-Nova-Inline";
+    font-style: normal;
+    text-align: center;
+    color: #D9241C;
+}
+
+.title--white {
+    font-family: "Gill-Sans-Nova-Inline";
+    font-style: normal;
+    text-align: center;
+    color: #FFF;
+}
+
+.title-border {
+    max-width: 566px;
+    width: 50%;
+    margin: 8px auto;
+    border: 1px solid #D9241C;
+}
+
+.card-description {
+    max-width: 260px;
+    font-family: gill-sans-nova-condensed, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    color: #CE6666;
+}
+
+.btn {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.875rem;
+    font-family: gill-sans-nova-condensed, sans-serif;
+}
+
+.btn__learn-more {
+    padding: 16px 65px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    color: #CE6666;
+    border: 2px solid #CE6666;
+    border-radius: 26px; 
+}
+
+.btn__learn-more:hover {
+    color: #F4F3DE;
+    background-color: #CE6666;
+    font-weight: 500;
+    
+}
+.btn__outline-white {
+    padding: 16px 65px;
+    color: #ffff;
+    border: 2px solid #ffff;
+    border-radius: 26px;;
+}
+
+.btn__outline-white:hover {
+    background-color: #ffff;
+    color: #3FB3E5;
+    transition: all 0.5s ease;
+}
+
+.btn-contact, .btn_check-price {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: gill-sans-nova-condensed, sans-serif;
+    margin: 0 auto;
+    background: transparent linear-gradient(90deg, #FDA203 0%, #DD301A 100%) 0% 0% no-repeat padding-box;
+    color: #ffff;
+    border: none;
+    letter-spacing: 0.09rem;
+    border-radius: 10px 0;
+    padding: 10px 60px;
+
+}
+
+
+.price__btn--contact-me {
+    padding: 17.5px 40px;
+    background: transparent linear-gradient(90deg, #FFAA02 0%, #D9241C 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 10px #00000029;
+    font: normal normal 300 1.875rem/2.688rem gill-sans-nova, sans-serif;
+    color: #fff;
+    letter-spacing: 0px;
+}
+
+.btn_check-price:hover,
+.btn-contact:hover, .price__btn--contact-me:hover {
+    background: #DD301A;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+
+@media (max-width: 1109px ) {
+    .btn-contact {
+        font-size: 1.875rem;
+    }
+}
+
+@media (max-width: 1109px) {
+    .btn__learn-more {
+     padding: 14.5px 45.5px;
+    }
+    .btn {
+     font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 835px){
+    .address {
+        font-weight: 300;
+    }
+}
+@media (max-width: 820px){
+    .btn-contact, .btn_check-price {
+        font-size: 1.438rem;
+        letter-spacing: 0.03rem;
+        padding: 10px 50px;
+    }
+}
+
+@media (max-width: 650px) {
+    .btn__outline-white {
+        padding: 6px 40px 12.51px 40px;
+        }
+}
+
+@media (max-width: 585px){
+    .title-border {
+    margin: 4px auto;
+    border: 0.5px solid #D9241C;
+    }  
+}
+
+@media (max-width: 491px) {
+    .btn__learn-more {
+     margin-bottom: 50px;
+     padding: 6px 40px 12.51px 40px;
+    }
+
+    .btn__outline-white {
+    padding: 6px 40px 12.51px 40px;
+    }
+
+}
 
