@@ -1,0 +1,17 @@
+<svg id="mouse" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="63" viewBox="0 0 63 63">
+  <defs>
+    <linearGradient id="linear-gradient" x1="3.412" y1="1.161" x2="0.5" y2="-0.092" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fda203"/>
+      <stop offset="0.483" stop-color="#dd301a"/>
+      <stop offset="1" stop-color="#fda203"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_109" data-name="Rectangle 109" width="63" height="63" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="mouse-2" data-name="mouse" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <path id="Path_2" data-name="Path 2" d="M226.07,0a18.552,18.552,0,0,0-18.531,18.531V44.469a18.531,18.531,0,0,0,37.062,0V18.531A18.552,18.552,0,0,0,226.07,0Zm14.751,44.469a14.751,14.751,0,0,1-29.5,0V18.531a14.751,14.751,0,0,1,29.5,0Z" transform="translate(-194.619 0)" fill="url(#linear-gradient)"/>
+    <path id="Path_3" data-name="Path 3" d="M476.751,201.316a1.89,1.89,0,0,0-1.89,1.89v8.7a1.89,1.89,0,0,0,3.78,0v-8.7A1.89,1.89,0,0,0,476.751,201.316Z" transform="translate(-445.299 -188.783)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
+
