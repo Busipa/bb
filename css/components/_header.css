@@ -42,13 +42,14 @@
     font-size: 1rem;
 }
 
-.navbar a:hover {
+.navbar a:hover, .mob-menu__item a:hover {
     color: #FFF500;
 }
 
 .fries-btn {
     width: 37px;
     height: 26px;
+    cursor: pointer;
 }
 
 .fries-btn span {
@@ -67,6 +68,22 @@
 
 .mobile-wrapper {
     display: none;
+    padding-right: 40px;
+    transition: all .09s ease-out;
+}
+
+.mob-menu {
+    display: block;
+    position: absolute;
+}
+
+.mob-menu__item {
+    display: block;
+    background-color: #DB2A1B;
+    padding: 5px;
+    margin-left: -50px;
+    text-align: right;
+    font: normal normal 900 1em Gill-Sans-Nova, sans-serif;
 }
 
 @media (max-width: 1262px) {
@@ -106,7 +123,6 @@
     .navbar__nav {
         display: none;
     }
-   
 }
 
 

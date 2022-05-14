@@ -1,5 +1,5 @@
 .special__title, .location__title, .feedbacks__title {
-    font: normal normal 200 3rem/4rem Gill Sans Nova Inline;
+    font: normal normal 200 3rem/4rem Gill-Sans-Nova Inline;
 }
 
 /* OUR OFFER */
@@ -66,7 +66,7 @@
 
 .our-cafe__title {
     margin-bottom: 0;
-    font-family: Gill Sans Nova Inline;
+    font-family: Gill-Sans-Nova Inline;
     font-style: normal;
     text-align: center;
     color: #ffff; 
@@ -89,7 +89,7 @@
     margin-right: auto;
     width: 100%;
     max-width: 1088px;
-    min-height: 588;
+    max-height: 588px;
 }
 
 .our-cafe__img-mob {
@@ -301,7 +301,7 @@
 
 .extra-seo {
     max-width: 1080px;
-    margin: 0 auto 80px;
+    margin:80px auto 80px;
 }
 .extra-seo__text {
     font-family: gill-sans-nova-condensed, sans-serif;
